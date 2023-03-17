@@ -19,6 +19,7 @@ body{
     width: 450px;
     background: #fff;
     border-radius: 8px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.05);
 }
 
 .container h2{
@@ -55,6 +56,10 @@ body{
     cursor: pointer;
     line-height: 53px;
     color: #707070;
+}
+
+.input-box span:hover{
+    color: #0b754c;
 }
 
 .wrapper .pass-indicator{
@@ -134,6 +139,7 @@ body{
 
 .options .option label{
     cursor: pointer;
+    color: #4f4f4f;
     padding-left: 0.63rem;
 }
 
